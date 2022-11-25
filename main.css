@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #4D7EA8;
+}
+
+.nav .nav-link.active {
+    background-color: #b6c2d9;
+    color: #4D7EA8;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #b6c2d9;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    color: #b6c2d9;
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: #b6c2d9;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 550px; 
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-hamburgueria,
+#cardapio {
+    background-color: #d2daebab;
+}
+
+.text-colored,
+.nav-cardapio .nav-link:hover {
+    color: #4D7EA8;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button, footer {
+    background-color: #4D7EA8;
+    color: #b6c2d9;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #b6c2d9;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.error {
+    color: #4D7EA8;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-inner > .carousel-item > img {
+        height: 220px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem
+    }
+
+    h5 {
+        margin-top: 8px;
+    }
+}
